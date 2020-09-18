@@ -1,0 +1,97 @@
+:root
+{
+    --button-color:rgb(212, 211, 211);
+}
+
+*
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+    color: var(--button-color);
+}
+
+body
+{
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('LogIn-bg.jpg');
+}
+
+.frame
+{
+    height: 35rem;
+    width: 25rem;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    border-radius: 1em;
+    margin: 50 auto  ;
+}
+
+.display
+{
+    height: 7em;
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(124, 120, 120);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input
+{
+    background: #444;
+    border: 1px solid #444;
+    outline: none;
+    padding: 1.5em;
+    border-radius: 10px;
+    height: 40px;
+    width: 90%;
+    text-align: right;
+    font-size: 23px ;
+    color: rgb(2, 140, 158);
+    
+
+   
+}
+
+.btn-con
+{   
+    margin: 45px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+button
+{
+    
+    height: 60px;
+    width: 60px;
+    background: none;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    color: var(--button-color);
+    font-size: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover
+{
+    background: rgba(255, 255, 255, 0.1);
+}
+
+#clear-btn
+{
+    background:rgb(170, 40, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    border-radius: 2px;
+    margin-left: 10;
+}
+
+
+.sign:hover
+{
+    background: rgb(17, 121, 62);
+}
